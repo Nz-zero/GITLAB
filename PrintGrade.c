@@ -14,7 +14,7 @@ void main()
   for (i=0;i<N; i++)
     printf("%5d %-25s %5.2f\n", ID[i], Name[i], GPA[i]); 
   printf("-------------------------------------\n");
-  printf("Enter Student ID to Search (0 to End): "); 
+  printf("please Enter Student ID to Search (0 to End): "); 
   scanf("%d", &SearchID); 
   while (SearchID)
   {
@@ -31,7 +31,7 @@ void main()
         printf("ID: %5d. Name: %-25s. GPA: %5.2f.\n", 
            ID[found_index], Name[found_index],  GPA[found_index]);
 
-      printf("Enter Student ID to Search (0 to End): ");
+      printf("please Enter Student ID to Search (0 to End): ");
 
       scanf("%d", &SearchID);
   }
